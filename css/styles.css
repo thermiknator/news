@@ -14,6 +14,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo {
@@ -45,4 +46,94 @@ nav span {
 
 a {
   color: black;
+}
+
+main {
+  display: flex;
+  position: relative;
+  padding-top: 78px;
+}
+
+main div {
+  border: 1px solid black
+}
+
+.content {
+  display: flex;
+  margin: 0 auto 78px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.left {
+  width: 630px;
+}
+
+.column.middle {
+  width: 300px;
+}
+
+.column.right {
+  width: 240px;
+}
+
+.main-content .image {
+  background-image:url("../resources/img-story-main.png");
+  width: 630px;
+  margin-top: 0px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.fall {
+  background-image: url("../resources/img-story-2.png");
+  text-align: center;
+}
+
+.pop-culture {
+  background-image: url("../resources/img-story-3.png");
+}
+
+.cats {
+  background-image: url("../resources/img-story-1.png");
+  text-align: center;
+}
+
+.image {
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.news-bites {
+  display: block;
+}
+
+.news-bites h3 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bites {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size; 12px;
+  color: DimGray;
 }
