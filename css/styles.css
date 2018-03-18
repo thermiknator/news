@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  width: 100%;
+  heigth: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  position: relative;
+  padding-left: 20px;
+}
+
+nav {
+  display: flex;
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  align-items: center;
+  padding: 20px 10px;
+  padding-right: 40px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+}
