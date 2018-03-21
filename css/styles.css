@@ -54,10 +54,6 @@ main {
   padding-top: 78px;
 }
 
-main div {
-  border: 1px solid black
-}
-
 .content {
   display: flex;
   margin: 0 auto 78px auto;
